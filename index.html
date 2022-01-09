@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Alphabet</title>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Alphabet Book by Rakibul Hasan</h1>
+      <h2>Click on a button, Then click on the display</h2>
+    </div>
+    <div class="fullbody">
+      <div class="display">
+        <h1 id="LaterDisplay" onclick="abbr()">Click <br />a <br />Button</h1>
+      </div>
+      <div class="keypad">
+        <div class="btnset">
+          <button onclick="letters('A', 'sounds/A.wav')">A</button>
+          <button onclick="letters('B', 'sounds/B.wav')">B</button>
+          <button onclick="letters('C', 'sounds/C.wav')">C</button>
+          <button onclick="letters('D', 'sounds/D.wav')">D</button>
+          <button onclick="letters('E', 'sounds/E.wav')">E</button>
+        </div>
+        <div class="btnset">
+          <button onclick="letters('F', 'sounds/F.wav')">F</button>
+          <button onclick="letters('G', 'sounds/G.wav')">G</button>
+          <button onclick="letters('H', 'sounds/H.wav')">H</button>
+          <button onclick="letters('I', 'sounds/I.wav')">I</button>
+          <button onclick="letters('J', 'sounds/J.wav')">J</button>
+        </div>
+        <div class="btnset">
+          <button onclick="letters('K', 'sounds/K.wav')">K</button>
+          <button onclick="letters('L', 'sounds/L.wav')">L</button>
+          <button onclick="letters('M', 'sounds/M.wav')">M</button>
+          <button onclick="letters('N', 'sounds/N.wav')">N</button>
+          <button onclick="letters('O', 'sounds/O.wav')">O</button>
+        </div>
+        <div class="btnset">
+          <button onclick="letters('P', 'sounds/P.wav')">P</button>
+          <button onclick="letters('Q', 'sounds/Q.wav')">Q</button>
+          <button onclick="letters('R', 'sounds/R.wav')">R</button>
+          <button onclick="letters('S', 'sounds/S.wav')">S</button>
+          <button onclick="letters('T', 'sounds/T.wav')">T</button>
+        </div>
+        <div class="btnset">
+          <button onclick="letters('U', 'sounds/U.wav')">U</button>
+          <button onclick="letters('V', 'sounds/V.wav')">V</button>
+          <button onclick="letters('W', 'sounds/W.wav')">W</button>
+          <button onclick="letters('X', 'sounds/X.wav')">X</button>
+          <button onclick="letters('Y', 'sounds/Y.wav')">Y</button>
+          <button onclick="letters('Z', 'sounds/Z.wav')">Z</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

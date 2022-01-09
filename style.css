@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  cursor: url(img/cursor.cur), auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btnset {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin: 10px;
+  background-color: aquamarine;
+  height: 70px;
+  width: 70px;
+  border-radius: 30%;
+  font-size: 50px;
+  cursor: url(img/cursor.cur), auto;
+  border: 0px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(172, 204, 141);
+  height: 250px;
+  width: 250px;
+  border-radius: 25%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.heading {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  width: 500px;
+  height: 150px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 35px;
+}
